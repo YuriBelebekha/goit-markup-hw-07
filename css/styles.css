@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-font-family: 'Roboto', sans-serif;
   --main-logo-font-family: 'Raleway', sans-serif;
 
@@ -24,11 +24,11 @@
 
   --duration: 250ms;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
-}
+} */
 
 /* ----- START - COMMON STYLES ----- */
 
-body {  
+/* body {  
   font-family: var(--primary-font-family);
   color: var(--primary-text-color);
 
@@ -91,13 +91,13 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 /* ===== END - COMMON STYLES ===== */
 
 /* ----- START - COMPONENTS ----- */
 
-.section-title {
+/* .section-title {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -369,13 +369,13 @@ img {
 .contact-form-submit-btn:hover,
 .contact-form-submit-btn:focus {
   background-color: var(--btn-color-hover);
-}
+} */
 
 /* ===== END - COMPONENTS ===== */
 
 /* ----- START - HEADER ----- */
 
-.page-header {
+/* .page-header {
   background-color: var(--primary-white-color);
   border-bottom: 1px solid var(--secondary-border-color);
 }
@@ -484,12 +484,12 @@ img {
 .menu-contact-icon {
   margin-right: 10px;
   fill: currentColor;
-}
+} */
 
 /* ===== END - HEADER ===== */
 
 /* ----- START - HERO ----- */
-.hero {
+/* .hero {
   max-width: 1600px;
   min-height: 600px;  
   margin-left: auto;
@@ -541,13 +541,13 @@ img {
 .hero-btn:hover, 
 .hero-btn:focus {
   background-color: var(--btn-color-hover);
-}
+} */
 
 /* ===== END - HERO ===== */
 
 /* ----- START - FEATURES ----- */
 
-.feature-section {
+/* .feature-section {
   padding-bottom: 0;
 }
 
@@ -587,13 +587,13 @@ img {
 
   background-color: var(--secondary-bg-color);
   border-radius: 4px;
-}
+} */
 
 /* ===== END - FEATURES ===== */
 
 /* ----- START - ACTIVITY ----- */
 
-.activity-list {
+/* .activity-list {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
@@ -622,13 +622,13 @@ img {
   background-color: var(--activity-bg-color);
 
   pointer-events: none;
-}
+} */
 
 /* ===== END - ACTIVITY ===== */
 
 /* ----- START - STAFF ----- */
 
-.staff {
+/* .staff {
   background-color: var(--secondary-bg-color);
 }
 
@@ -666,13 +666,13 @@ img {
 .staff-position {
   margin-top: 10px;  
   color: var(--secondary-text-color);
-}
+} */
 
 /* ===== END - STAFF ===== */
 
 /* ----- START - CLIENTS ----- */
 
-.client-list {
+/* .client-list {
   display: flex;
   justify-content: center;
   margin-top: 50px;
@@ -717,13 +717,13 @@ img {
 .client-list-link:hover .client-list-icon,
 .client-list-link:focus .client-list-icon {
   fill: currentColor;
-}
+} */
 
 /* ===== END - CLIENTS ===== */
 
 /* ----- START - FOOTER ----- */
 
-.page-footer {
+/* .page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -869,13 +869,13 @@ img {
   margin-left: 10px;
   
   background-image: url(../images/icons/mailing-icon.svg);  
-}
+} */
 
 /* ===== END - FOOTER ===== */
 
 /* ----- START - PORTFOLIO ----- */
 
-.filter-list {
+/* .filter-list {
   display: flex;
   justify-content: center;
 }
@@ -996,6 +996,6 @@ img {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-}
+} */
 
 /* ===== END - PORTFOLIO ===== */
