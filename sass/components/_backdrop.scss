@@ -10,10 +10,10 @@
   transform: scale(1) rotate(360deg);
   transition: transform var(--duration) var(--timing-function),
     visibility var(--duration) var(--timing-function);
-}
 
-.backdrop.is-hidden {
-  transform: scale(0) rotate(0deg);
-  visibility: hidden;
-  pointer-events: none;
+    &.is-hidden {
+      transform: scale(0) rotate(0deg);
+      visibility: hidden;
+      pointer-events: none;
+    }
 }

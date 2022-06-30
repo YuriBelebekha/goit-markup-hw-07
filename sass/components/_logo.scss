@@ -4,17 +4,16 @@
   margin-right: 94px;
 
   font-family: var(--main-logo-font-family);
-  font-weight: 700;
-  font-size: 0;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  // 0.1px застосовується, щоб уникнути помилки при компіляції в CSS (помилка виникає в функції font при діленні на 0)
+  @include font(700, 0.1px, 0.1px, 0);  
   color: var(--logo-black-color);
-}
 
-.logo-font-size {
-  font-size: 26px;
-}
+  //використовується для боротьби з пробілом, який виникає між двома span в логотипі
+  &__font-size {
+    @include font(inherit, 26px, 31px, 0.03em);    
+  }
 
-.logo-accent-color {
-  color: var(--accent-color);
+  &__accent-color {
+    color: var(--accent-color);
+  }
 }
